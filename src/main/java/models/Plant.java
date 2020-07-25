@@ -15,7 +15,7 @@ public class Plant
 
     private String name;
     private String species;
-    private String h2ofreq;
+    private String h2ofrequency;
     private String plantimage;
 
     @ManyToOne
@@ -27,10 +27,10 @@ public class Plant
     public Plant() {
     }
 
-    public Plant(String name, String species, String h2ofreq, String plantimage, User user) {
+    public Plant(String name, String species, String h2ofrequency, String plantimage, User user) {
         this.name = name;
         this.species = species;
-        this.h2ofreq = h2ofreq;
+        this.h2ofrequency = h2ofrequency;
         this.plantimage = plantimage;
         this.user = user;
     }
@@ -51,12 +51,12 @@ public class Plant
         this.species = species;
     }
 
-    public String getH2ofreq() {
-        return h2ofreq;
+    public String getH2ofrequency() {
+        return h2ofrequency;
     }
 
-    public void setH2ofreq(String h2ofreq) {
-        this.h2ofreq = h2ofreq;
+    public void setH2ofrequency(String h2ofreq) {
+        this.h2ofrequency = h2ofreq;
     }
 
     public String getPlantimage() {
