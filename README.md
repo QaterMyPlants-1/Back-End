@@ -1,7 +1,5 @@
 # Back-End
 
-One Paragraph of project description goes here
-
 # Endpoints
 
 ## Plants
