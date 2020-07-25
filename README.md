@@ -10,14 +10,14 @@
 **/api/plants - POST** - Adds a plant to the user's list of plants. 
 
 
-*What this endpoints requires:*  `name` , `species` , `h2ofrequency` , `plantimage`
+*What this endpoint requires:*  `name` , `species` , `h2ofrequency` , `plantimage`
 
 
 
 **/api/plants/{plantId} - PUT -** Updates the current plant based off ID.
 
 
-*What this endpoints requires:*  `name` , `species` , `h2ofrequency` , `plantimage`
+*What this endpoint requires:*  `name` , `species` , `h2ofrequency` , `plantimage`
 
 **/api/plants/{plantID} - DELETE -** Deletes a plant based off ID.
 
