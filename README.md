@@ -64,8 +64,9 @@ I will add the link for you guys to use whenever I deploy!
 
 ## Built With
 
-* **Java** - The framework used to Build the API
+* **Java** - The language used to build the API
 * [Maven](https://maven.apache.org/) - Dependency Management
+* **Spring** - The framework used to build the API
 
 
 ## Authors
