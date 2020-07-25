@@ -58,18 +58,18 @@
 **/api/auth/logout - GET -** Logging out.
 
 
-## Deployment
+# Deployment
 
 I will add the link for you guys to use whenever I deploy!
 
-## Built With
+# Built With
 
 * **Java** - The language used to build the API
 * [Maven](https://maven.apache.org/) - Dependency Management
 * **Spring** - The framework used to build the API
 
 
-## Authors
+# Authors
 
 * **Teagan Keith** - *API* - [GitHub](https://github.com/teagankeith)
 
