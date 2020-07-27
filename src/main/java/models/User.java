@@ -4,7 +4,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 
 @Entity
@@ -27,17 +29,17 @@ public class User
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     @JsonIgnoreProperties(value = "user", allowSetters = true)
-    private List<UserRole> roleList = new ArrayList<>();
+    private Set<UserRole> roles = new HashSet<>();
 
 
     public User() {
     }
 
-    public User(String username, String password, String phonenumber, List<UserRole> roleList) {
+    public User(String username, String password, String phonenumber) {
         this.username = username;
         this.password = password;
         this.phonenumber = phonenumber;
-        this.roleList = roleList;
+
     }
 
 
@@ -73,12 +75,14 @@ public class User
         this.phonenumber = phonenumber;
     }
 
-    public List<UserRole> getRoleList() {
-        return roleList;
+    public Set<UserRole> getRoles()
+    {
+        return roles;
     }
 
-    public void setRoleList(List<UserRole> roleList) {
-        this.roleList = roleList;
+    public void setRoles(Set<UserRole> roles)
+    {
+        this.roles = roles;
     }
 
 
