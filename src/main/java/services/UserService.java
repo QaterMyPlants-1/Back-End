@@ -8,9 +8,9 @@ public interface UserService {
 
     User findUserById(long id);
 
-    User save(User user);
+    User save(User user) throws Throwable;
 
-    void deleteUserById(long id);
+    void deleteUserById(long id) throws Throwable;
 
     User updateUser(User user, long id);
 
